@@ -208,7 +208,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here (but not immediately).
 
   # Tabs on homepage
   # Uncomment to enable.
@@ -249,7 +249,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#fff"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
