@@ -1,10 +1,10 @@
 ---
 title: Planned outage
-date: 2021-03-13 11:00:00
+date: 2021-04-10 11:00:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 resolved: false
-#resolvedWhen: 2021-03-13 11:00:00
+#resolvedWhen: 2021-04-10 11:00:00
 affected:
   - mataroa.blog
 section: issue
@@ -16,4 +16,4 @@ Hopefully it will take 15 minutes.
 
 If many things go wrong, it will take up to 2 hours.
 
-This will happen at 11:00 GMT on Saturday, March 13th, 2021.
+This will happen at 11:00 GMT on Saturday, April 10th, 2021.
