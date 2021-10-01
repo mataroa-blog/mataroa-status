@@ -1,15 +1,17 @@
 ---
 title: Server provider maintenance
-date: 2021-09-30 14:05:00
+date: 2021-09-30 20:00:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
-resolved: false
+resolved: true
+resolvedWhen: 2021-10-01 04:28:00
 affected:
   - mataroa.blog
 section: issue
 ---
 
-Our server provider, Hetzner, is doing some maintenance work:
+Our server provider, Hetzner, is doing some maintenance work and there might
+be some increased latency:
 
 > Maintenance at backbone connection between Frankfurt - Falkenstein
 
