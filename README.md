@@ -1,6 +1,6 @@
 # status.mataroa.blog
 
-Based on [cstate](https://github.com/cstate/cstate)
+Based on [cstate](https://github.com/cstate/cstate).
 
 Serve locally:
 
