@@ -5,7 +5,14 @@ if [ -d "public/" ]; then
 	rm -r public/
 fi
 
-hugo # generate anew
+# generate anew
+hugo
+
+# push origin srht
+git push -v origin master
+
+# push on github
+git push -v github master
 
 # copy over nginx conf
 scp ./status.mataroa.blog.conf root@evey.sirodoht.com:/etc/nginx/sites-available/
