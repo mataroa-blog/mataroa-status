@@ -52,7 +52,7 @@
           {{ $minutesForCalc := (mod $diffInMin 60) }}
 
           {{ div (sub $diffInMin $minutesForCalc) 60 }}h
-          {{ $minutesForCalc }}m {{ T "ofDowntime" }}
+          {{ $minutesForCalc }}m
         </div>
       {{ else }}
         <div class="ok">
@@ -61,7 +61,7 @@
           {{ $secsForCalc := (mod $timeDiff 60) }}
 
           {{ div (sub $timeDiff $secsForCalc) 60 }}m
-          <!-- {{ $secsForCalc }}s --> {{ T "ofDowntime" }}
+          <!-- {{ $secsForCalc }}s -->
         </div>
       {{ end }}
     {{ end }}

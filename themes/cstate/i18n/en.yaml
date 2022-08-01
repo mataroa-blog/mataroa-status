@@ -80,8 +80,6 @@
   translation: in under a minute # continuing the last string
 - id: resolvedAfter
   translation: Resolved after # + 19 min
-- id: ofDowntime
-  translation: of downtime
 
 - id: downtimeOngoing
   translation: This issue is not resolved yet
