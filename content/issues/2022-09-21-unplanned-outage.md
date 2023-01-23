@@ -1,5 +1,5 @@
 ---
-title: Unplanned outage
+title: Server provider outage
 date: 2022-09-21 09:21:00
 # Possible severity levels: down, disrupted, notice
 severity: down
