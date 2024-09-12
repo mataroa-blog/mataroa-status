@@ -13,19 +13,19 @@
     <!-- Main -->
     <div class="contain">
       <!-- Enable JavaScript banner -->
-      {{ partial "index/noscript" . }}
+      <!-- {{ partial "index/noscript" . }} -->
 
       <!-- "All systems operational" (or not) banner -->
-      {{ partial "index/summary" . }}
+      <!-- {{ partial "index/summary" . }} -->
 
       <!-- Announcement box (title and short summary) -->
       {{ partial "index/announcements" . }}
 
       <!-- Auto refresh -->
-      {{ partial "index/autorefresh" . }}
+      <!-- {{ partial "index/autorefresh" . }} -->
 
       <!-- Individual component info -->
-      {{ partial "index/components" . }}
+      <!-- {{ partial "index/components" . }} -->
 
       {{ if .Site.Params.enableCustomHTML }}
         {{ partial "custom/homepage-summary" . }}
