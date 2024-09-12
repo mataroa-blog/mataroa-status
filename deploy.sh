@@ -8,11 +8,8 @@ fi
 # generate anew
 hugo
 
-# push origin srht
+# push origin
 git push -v origin master
-
-# push on github
-git push -v github master
 
 # copy over nginx conf
 scp ./status.mataroa.blog.conf root@evey.sirodoht.com:/etc/nginx/sites-available/
