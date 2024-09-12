@@ -4,7 +4,7 @@ date: 2024-09-10 13:44:00
 # Possible severity levels: down, disrupted, notice
 severity: down
 resolved: true
-resolvedWhen: 2024-07-11 17:12:00
+resolvedWhen: 2024-09-11 17:12:00
 affected:
   - mataroa.blog
 section: issue
